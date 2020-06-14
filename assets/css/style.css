@@ -331,7 +331,8 @@ a {
 
 .menulist__item {
   position: relative;
-  padding: 10px; }
+  padding: 10px;
+  padding-top: 30px;}
   .menulist__item:hover .menulist__add-order {
     opacity: 1; }
   @media screen and (min-width: 768px) {
@@ -346,9 +347,12 @@ a {
 .menulist__price {
   font-size: 24px;
   font-weight: 800;
-  position: absolute;
-  right: 0;
-  top: 17px; }
+  position: relative;
+  right: 0; }
+  @media screen and (min-width: 768px) {
+    .menulist__price {
+      position: absolute;
+      top: 17px; } }
 .menulist__extra {
   display: inline-block;
   padding: 4px 8px 0;
