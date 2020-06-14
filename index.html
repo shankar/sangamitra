@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Joy's Bakehouse</title>
+  <meta name="description" content="The best soulful artisanal cakes and bakes">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="og:title" property="og:title" content="Sweet craving? Order the best cakes in town">
+  <meta property="og:image" content="" />
+  <meta property="og:image:alt" content="The best cakes in Chennai" />
+  <meta name="robots" content="index, follow">
+  <link rel="icon" type="image/png" href="assets/images/favicon32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="assets/images/favicon16x16.png" sizes="16x16">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  <script
+			  src="https://code.jquery.com/jquery-3.5.1.min.js"
+			  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+			  crossorigin="anonymous"></script>
+  <script src="assets/scripts/libs/instafeed.min.js"></script>
+  <script src="assets/scripts/app.js"></script>
+</head>
+
+<body>
+  <header class="mainheader" id="mainheader">
+    <nav class="menu-fixed" style="display:none;">
+      <ul class="h-clearlist">
+        <li class="menu-fixed__item">
+          <a class="menu-fixed__link" href="#menu">Menu</a>
+        </li>
+        <li class="menu-fixed__item">
+          <a class="menu-fixed__link" href="#how">How to order</a>
+        </li>
+        <li class="menu-fixed__item">
+          <a class="menu-fixed__link" href="#about">About</a>
+        </li>
+        <li class="menu-fixed__item">
+          <a class="menu-fixed__link" href="#reviews">Reviews</a>
+        </li>
+        <li class="menu-fixed__item">
+          <a class="menu-fixed__link" href="#connect">Connect</a>
+        </li>
+      </ul>
+    </nav>
+    <h1 class="mainheader__title">
+      <span class="mainheader__name">
+        Joy's Bakehouse
+        <span class="mainheader__subname">
+          Chennai, India
+        </span>
+      </span>
+    </h1>
+    <h2 class="mainheader__sub h4">
+      Artisanal baking at its finest.
+    </h2>
+
+    <nav class="menu-header">
+      <ul class="h-clearlist">
+        <li class="menu-header__item">
+          <a class="menu-header__link" href="#menu">
+            <div class="menu-header__iconwrap">
+              <img src="assets/images/baking_solid.svg" alt="Menu" class="menu-header__icon">
+              <img src="assets/images/baking.svg" alt="Menu" class="menu-header__icon-hover">
+            </div>
+            Menu
+          </a>
+        </li>
+        <li class="menu-header__item">
+          <a class="menu-header__link" href="#how">
+            <div class="menu-header__iconwrap">
+              <img src="assets/images/order_solid.svg" alt="How it works" class="menu-header__icon">
+              <img src="assets/images/order.svg" alt="How it works" class="menu-header__icon-hover">
+            </div>
+            How to order
+          </a>
+        </li>
+        <li class="menu-header__item">
+          <a class="menu-header__link" href="#about">
+            <div class="menu-header__iconwrap">
+              <img src="assets/images/whisk_solid.svg" alt="About" class="menu-header__icon">
+              <img src="assets/images/whisk.svg" alt="About" class="menu-header__icon-hover">
+            </div>
+            About
+          </a>
+        </li>
+        <li class="menu-header__item">
+          <a class="menu-header__link" href="#connect">
+            <div class="menu-header__iconwrap">
+              <img src="assets/images/like_solid.svg" alt="Connect" class="menu-header__icon">
+              <img src="assets/images/like.svg" alt="Connect" class="menu-header__icon-hover">
+            </div>
+            Connect
+          </a>
+        </li>
+      </ul>
+    </nav>
+​
+    <picture>
+      <source srcset="assets/images/bg_lg.jpg" media="(min-width: 1200px)">
+      <source srcset="assets/images/bg_md.jpg" media="(min-width: 760px)">
+      <img src="assets/images/bg_sm.jpg" alt="Umeå Bakery: Best Swedish bulla / bun in Amsterdam" class="mainheader__bg"/>
+    </picture>
+  </header>
+
+  <main>
+    <section class="block block--alt block--white" id="menu">
+      <h1 class="block__title">Menu</h1>
+      <div class="block__content">
+        <p class="highlight">
+          How to Order:
+          <br>
+          Click on Request Order below the menu.
+          Send an email with the menu item, required quantity and when you would like to pick it up.
+          <br>
+          Order at least 3 days in advance.
+          <br>
+          Huge order ? Order 1 week in advance.
+        </p>
+
+        <ul class="menulist h-clearlist">
+          <li class="menulist__item">
+            <h2 class="menulist__title">Cupcakes</h2>
+            <ul class="h-clearlist">
+              <li class="menulist__extra menulist__extra--min">
+                Per order: 6
+              </li>
+              <li class="menulist__extra menulist__extra--hasicon">
+                <img src="assets/images/wheat.svg" alt="Star" class="menulist__extra__icon"> Vegan per request
+              </li>
+              <li class="menulist__extra menulist__extra--hasicon menulist__extra--favourite">
+                <img src="assets/images/medal.svg" alt="Star" class="menulist__extra__icon"> Super Popular
+              </li>
+            </ul>
+            <p>
+              <span class='menulist__tags'>Friendly, cozy, sweetness with family.</span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <span class="menulist__price">₹ 480.00</span>
+            <!-- <a class="menulist__add-order">+<span class="menulist__add-order__text">Add order</span></a> -->
+          </li>
+          <li class="menulist__item">
+            <h2 class="menulist__title">
+              Orange Blueberry Miniloaves
+            </h2>
+            <ul class="h-clearlist">
+              <li class="menulist__extra menulist__extra--min">
+                Per order: 4
+              </li>
+              <!-- <li class="menulist__extra menulist__extra--hasicon">
+                <img src="assets/images/wheat.svg" alt="Star" class="menulist__extra__icon">
+                Vegan per request
+              </li> -->
+              <!-- <li class="menulist__extra menulist__extra--hasicon menulist__extra--favourite">
+                <img src="assets/images/medal.svg" alt="Star" class="menulist__extra__icon">
+                Super Popular
+              </li> -->
+            </ul>
+            <p>
+              <span class='menulist__tags'>Blah, Blah, Blah</span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <span class="menulist__price">₹ 480.00</span>
+          </li>
+          <li class="menulist__item">
+            <h2 class="menulist__title">
+              Lemon Raspberry Miniloaves
+            </h2>
+            <ul class="h-clearlist">
+              <li class="menulist__extra menulist__extra--min">
+                Per order: 4
+              </li>
+              <!-- <li class="menulist__extra menulist__extra--hasicon">
+                <img src="assets/images/wheat.svg" alt="Star" class="menulist__extra__icon"> Vegan per request
+              </li>
+              <li class="menulist__extra menulist__extra--hasicon menulist__extra--favourite">
+                <img src="assets/images/medal.svg" alt="Star" class="menulist__extra__icon"> Favorite
+              </li> -->
+            </ul>
+            <p>
+              <span class='menulist__tags'>Yada, Yada, Yada</span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <span class="menulist__price">₹ 480.00</span>
+          </li>
+          <li class="menulist__item">
+            <h2 class="menulist__title">
+              Chocolate Oreo Brownies
+            </h2>
+            <ul class="h-clearlist">
+              <li class="menulist__extra menulist__extra--min">
+                Per order: 6
+              </li>
+            </ul>
+            <p>
+              <span class='menulist__tags'>Chocolatey, muddy, &amp; full-on pleasure.</span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <span class="menulist__price">₹ 480.00</span>
+          </li>
+        </ul>
+
+        <div class="centered" style="margin-top: 4em">
+          <a class="btn" href="mailto:drsmilearchitect@gmail.com">Request order</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="block block--alt block--mint" id="how">
+      <h1 class="block__title">Custom Order ?</h1>
+      <div class="block__content" style="text-align: center; line-height: 1.6;">
+        <p>
+          Make sure to place your order(s) minimum 3 days in advance.<br>
+          Humongous order? Order 1 week in advance.
+        </p>
+      </div>
+
+      <ul class="h-clearlist how">
+        <li class="how__item">
+          <span class="how__iconbox">
+            <img src="assets/images/how_order.svg" alt="Step1: Communicate" class="how__icon">
+          </span>
+          <h2 class="h5 how__title">Order</h2>
+          <p class="how__descr">
+            Describe your dream cake. How many of them? and when would you like to pick them up? When you're ready, drop me an
+            <a href='mailto:drsmilearchitect@gmail.com'>email</a> with your contact number.
+          </p>
+        </li>
+        <li class="how__item">
+          <span class="how__iconbox">
+            <img src="assets/images/baking.svg" alt="Step2: Baking" class="how__icon">
+          </span>
+          <h2 class="h5 how__title">Baking</h2>
+          <p class="how__descr">
+            Sit back &amp; relax. <br>I will work my magic and have them ready perfectly on time for your special occasions.
+          </p>
+        </li>
+        <li class="how__item">
+          <span class="how__iconbox">
+            <img src="assets/images/how_enjoy.svg" alt="Step3: Enjoy" class="how__icon">
+          </span>
+          <h2 class="h5 how__title">Enjoy</h2>
+          <p class="how__descr">
+            The best part, enjoy every bite of the your dream cake! Don't forget to show some love by sharing the sweet words to your friends and family.
+          </p>
+        </li>
+      </ul>
+
+      <div class="centered">
+        <a class="btn" href="tel:+919884758038">Call</a>
+        <a class="btn" href="mailto:drsmilearchitect@gmail.com">Email</a>
+      </div>
+    </section>
+
+    <section class="block block--alt block--white about" id="about">
+      <h1 class="block__title">About</h1>
+      <div class="block__content user__item">
+        <div class="user__imgbox">
+          <img src="assets/images/sangamitra.jpg" alt="Isabell" class="user__img">
+        </div>
+        <div class="user__descr">
+          <p>
+           Hi, I'm Sangamitra Asoka. The entrepreneur behind Joy's Bakehouse
+           <br>
+           Baking has been my passion since as far as I can remember &amp; I am now delighted to share my passion with all of you for any of your special occasions!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="block block--alt block--mint" id="reviews">
+      <h1 class="block__title">Latest Reviews</h1>
+      <div class="block__content">
+        <p>
+          What do they think of our baking goods? Let's hear them here!!
+        </p>
+      </div>
+
+      <ul class="h-clearlist block__content user">
+        <li class="user__item user__item--sm">
+          <div class="user__imgbox user__imgbox--sm">
+            <img src="" alt="" class="user__img">
+          </div>
+          <div class="user__descr">
+            <p>
+              The best Bakery in Chennai hands down!
+            </p>
+          </div>
+          <footer class="user__footer">
+            Divya ~ ordered 10 cupcakes in Jun 2020
+          </footer>
+        </li>
+        <li class="user__item user__item--sm">
+          <div class="user__imgbox user__imgbox--sm">
+            <img src="" alt="" class="user__img">
+          </div>
+          <div class="user__descr">
+            <p>
+              The best Bakery in Chennai! Very professional and yummy! I ordered a bit later than planned &amp; Sangamitra was being very friendly and professional.
+            </p>
+          </div>
+          <footer class="user__footer">
+            Shankar ~ ordered 10 lemon raspberry mini loaves in May 2020
+          </footer>
+        </li>
+        <li class="user__item user__item--sm">
+          <div class="user__imgbox user__imgbox--sm">
+            <img src=""
+              alt="" class="user__img">
+          </div>
+          <div class="user__descr">
+            <p>
+              The best bakery in Chennai! Very professional and yummy!
+            </p>
+          </div>
+          <footer class="user__footer">
+            Random Dude ~ ordered 10 Chocolate Brownies in March 2020
+          </footer>
+        </li>
+        <li class="user__item user__item--sm">
+          <div class="user__imgbox user__imgbox--sm">
+            <img src=""
+              alt="" class="user__img">
+          </div>
+          <div class="user__descr">
+            <p>
+              The best bakery in Chennai! Very professional and yummy! I ordered a bit later than planned &amp; Sangamitra was being
+              very friendly and professional.
+            </p>
+          </div>
+          <footer class="user__footer">
+            Random Dudette ~ ordered 10 cupcakes in Feb 2020
+          </footer>
+        </li>
+      </ul>
+
+    </section>
+
+    <section class="block block--alt block--dark connect" id="connect">
+      <h1 class="block__title">Connect</h1>
+      <ul class="h-clearlist connect-list">
+        <li class="connect__item">
+          <a class="connect__link" href="tel:+919884758038" target="_blank">
+            <div class="connect__imgbox">
+              <img src="assets/images/phone.svg" alt="phone" class="connect__img">
+            </div>
+            +919884758038
+          </a>
+        </li>
+      <ul class="h-clearlist connect-list">
+        <li class="connect__item">
+          <a class="connect__link" href="mailto:drsmilearchitect@gmail.com" target="_blank">
+            <div class="connect__imgbox">
+              <img src="assets/images/mail.svg" alt="email" class="connect__img">
+            </div>
+            drsmilearchitect@gmail.com
+          </a>
+        </li>
+        <li class="connect__item">
+          <a class="connect__link" href="https://www.facebook.com/joysbakehouse/" target="_blank">
+            <div class="connect__imgbox">
+              <img src="assets/images/facebook.svg" alt="Facebook" class="connect__img">
+            </div>
+            Facebook
+          </a>
+        </li>
+        <li class="connect__item">
+          <a class="connect__link" href="https://www.instagram.com/joysbakehouse/?hl=en" target="_blank">
+            <div class="connect__imgbox">
+              <img src="assets/images/instagram.svg" alt="Instagram" class="connect__img">
+            </div>
+            Instagram
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <a class="scroll-top" href="#mainheader">
+    <img class="scroll-top__img" src="assets/images/arrow-up.svg" alt="Back up">
+    <img class="scroll-top__img--hover" src="assets/images/arrow-up-hover.svg" alt="Back up">
+  </a>
+</body>
+</html>
